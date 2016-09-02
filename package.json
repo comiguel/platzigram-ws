@@ -1,0 +1,31 @@
+{
+  "name": "platzigram-ws",
+  "version": "1.0.0",
+  "description": "Platzigram Realtime Backend",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "start": "node server.js"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comiguel/platzigram-ws.git"
+  },
+  "author": "Carlos Hincapié <carmihinfer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/comiguel/platzigram-ws/issues"
+  },
+  "homepage": "https://github.com/comiguel/platzigram-ws#readme",
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "standard": "^7.1.2"
+  },
+  "dependencies": {
+    "rethinkdb": "^2.3.2",
+    "socket.io": "^1.4.8"
+  }
+}
